@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Каталог найкращих українських фільмів</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="back">
+    <ul>
+        <li><a href="main.html">Головна сторінка</a></li>
+        <li><a href="list.html">Каталог фільмів</a></li>
+        <li><a href="info.html">Інформація про проєкт</a></li>
+        <li>
+            <form>
+            <label for="sortSelect">Сортувати каталог:</label>
+            <select id="sortSelect" onchange="sortTable()">
+            <option value="alphabetic">За алфавітом</option>
+            <option value="year">За роком виходу</option>
+            </select>
+            </form>
+        </li>
+        <li>
+            <form>
+            <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Пошук за назвою">
+            </form>
+        </li>
+      </ul>
+      <div class="main-text">
+        <h1><i>Каталог</i></h1>
+      </div>
+
+      <table id="myTable">
+        <tr>
+          <th>Назва</th>
+          <th>Рік</th>
+          <th>Жанр</th>
+          <th>Афіша</th>
+        </tr>
+        <tr onclick="location.href='kiborgi.html'">
+          <td>Кіборги</td>
+          <th>2017</th>
+          <td>Екшн, військова драма</td>
+          <td><img src="/веб пікчі/кіборги.jpg" alt="kiborgi"></td>
+        </tr>
+        <tr onclick="location.href='tini.html'">
+          <td>Тіні забутих предків</td>
+          <th>1964</th>
+          <td>Художній</td>
+          <td><img src="/веб пікчі/тіні_забутих_предків.jpg" alt="tini"></td>
+        </tr>
+        <tr onclick="location.href='dumki.html'">
+          <td>Мої думки тихі</td>
+          <th>2019</th>
+          <td>Трагікомедія</td>
+          <td><img src="/веб пікчі/мої_думки_тихі.jpg" alt="dumki"></td>
+        </tr>
+        <tr onclick="location.href='atlantida.html'">
+          <td>Атлантида</td>
+          <th>2019</th>
+          <td>Драма</td>
+          <td><img src="/веб пікчі/атлантида.jpg" alt="atlantida"></td>
+        </tr>
+        <tr onclick="location.href='vatra.html'">
+            <td>Жива ватра</td>
+            <th>2014</th>
+            <td>Науково-пізнавальний, документальний</td>
+            <td><img src="/веб пікчі/жива_ватра.jpg" alt="vatra"></td>
+          </tr>
+      </table>
+      <div id="tableContainer"></div>
+</body>
+</html>

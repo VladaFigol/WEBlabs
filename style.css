@@ -1,0 +1,109 @@
+.back {
+    background-image: url('bg.png');
+}
+.main-text {
+width: calc(70%);
+display: block;
+margin: 0 auto;
+color: white;
+text-align: center;
+font-size: 17px;
+}
+.page-text {
+    width: calc(100%);
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    }
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #0e0606;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+li form {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #472626;
+}
+a:link {
+color: rgb(133, 207, 42);
+background-color: transparent;
+font-size: 17px;
+text-decoration: none;
+  }
+  
+a:visited {
+color: rgb(255, 255, 255);
+background-color: transparent;
+text-decoration: none;
+  }
+  
+a:hover {
+color: rgb(152, 0, 0);
+background-color: transparent;
+text-decoration: underline;
+  }
+  
+a:active {
+color: rgb(255, 91, 91);
+background-color: transparent;
+text-decoration: underline;
+  }
+table {
+border-collapse: collapse;
+width: 100%;
+}
+  
+th, td {
+padding: 8px;
+text-align: left;
+color: white;
+font-size: 18px;
+border-bottom: 1px solid #ffffff;
+}
+  
+tr:hover {
+background-color: #8b2121;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    font-size: 16px; 
+}
+button:hover {
+    background-color: rgb(94, 13, 13);
+    color: white;
+}
+label {
+    color: white;
+    font-size: 17px;
+}
+img {
+    height: 200px;
+    width: 150px;
+}
+
