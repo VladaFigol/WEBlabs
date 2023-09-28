@@ -6,10 +6,11 @@
     <script src="script.js"></script>
 </head>
 <body class="back">
+  <header id="myheader">
     <ul>
-        <li><a href="main.html">Головна сторінка</a></li>
-        <li><a href="list.html">Каталог фільмів</a></li>
-        <li><a href="info.html">Інформація про проєкт</a></li>
+        <li><a href="main.html" target="_self">Головна сторінка</a></li>
+        <li><a href="list.html" target="_self">Каталог фільмів</a></li>
+        <li><a href="info.html" target="_self">Інформація про проєкт</a></li>
         <li>
             <form>
             <label for="sortSelect">Сортувати каталог:</label>
@@ -25,8 +26,11 @@
             </form>
         </li>
       </ul>
+  </header>
+  <main>
       <div class="main-text">
-        <h1><i>Каталог</i></h1>
+        <h1 class="dotted"><i>Каталог</i></h1>
+        <br>
       </div>
 
       <table id="myTable">
@@ -68,5 +72,7 @@
           </tr>
       </table>
       <div id="tableContainer"></div>
+    </main>
+    <footer></footer>
 </body>
 </html>

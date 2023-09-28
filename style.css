@@ -1,22 +1,29 @@
-.back {
-    background-image: url('bg.png');
+* {
+color: white;
 }
+
+.back {
+background-image: url('bg.png');
+}
+
 .main-text {
 width: calc(70%);
 display: block;
 margin: 0 auto;
-color: white;
 text-align: center;
 font-size: 17px;
+font-family: 'Times New Roman', Times, serif;
 }
+
 .page-text {
-    width: calc(100%);
-    display: block;
-    margin: 0 auto;
-    color: white;
-    text-align: left;
-    font-size: 17px;
-    }
+width: calc(100%);
+display: block;
+margin: 0 auto;
+text-align: left;
+font-size: 17px;
+font-family: 'Times New Roman', Times, serif;
+}
+
 ul {
 list-style-type: none;
 margin: 0;
@@ -31,14 +38,13 @@ float: left;
 
 li a {
 display: block;
-color: white;
 text-align: center;
 padding: 16px;
 text-decoration: none;
 }
+
 li form {
 display: block;
-color: white;
 text-align: center;
 padding: 16px;
 text-decoration: none;
@@ -47,6 +53,11 @@ text-decoration: none;
 li a:hover {
 background-color: #472626;
 }
+
+a[target="_self"] {
+  font-style: italic;
+}
+
 a:link {
 color: rgb(133, 207, 42);
 background-color: transparent;
@@ -71,6 +82,7 @@ color: rgb(255, 91, 91);
 background-color: transparent;
 text-decoration: underline;
   }
+
 table {
 border-collapse: collapse;
 width: 100%;
@@ -79,7 +91,6 @@ width: 100%;
 th, td {
 padding: 8px;
 text-align: left;
-color: white;
 font-size: 18px;
 border-bottom: 1px solid #ffffff;
 }
@@ -90,20 +101,34 @@ background-color: #8b2121;
 
 button
 {
-    background-color: black;
-    color: white;
-    font-size: 16px; 
+background-color: black;
+font-size: 16px; 
 }
+
 button:hover {
-    background-color: rgb(94, 13, 13);
-    color: white;
+background-color: rgb(94, 13, 13);
 }
+
 label {
-    color: white;
-    font-size: 17px;
+font-size: 17px;
 }
+
+h1.dotted {
+outline-style: dotted;
+outline-color: white;
+}
+
+h1 {
+  text-shadow: 2px 2px rgb(116, 4, 4);
+}
+
 img {
-    height: 200px;
-    width: 150px;
+height: 200px;
+width: 150px;
+}
+
+#myheader
+{
+position: relative;
 }
 
